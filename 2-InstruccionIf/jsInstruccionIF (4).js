@@ -3,9 +3,16 @@ function Mostrar()
 //tomo la edad  
 var edad
 edad=document.getElementById("edad").Value;
+parseInt=edad
 
-if (edad >=14 && edad <=18);
+if(edad >13 && edad<17);
 
-alert("es adolescente")
+
+alert("es adolescente");
+
+
+
+ 
+
 
 }//FIN DE LA FUNCIÓN

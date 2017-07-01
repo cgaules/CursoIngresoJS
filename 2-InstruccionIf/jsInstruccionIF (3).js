@@ -6,7 +6,7 @@ if (edad > 17)
 {
     alert("es mayor")
 }
-if (edad < 18)
+else
 {
     alert("es menor")
 }

@@ -16,5 +16,11 @@ switch(mesDelAño){
 */	
 var mesDelAño = document.getElementById('mes').value;	
 
+if(mesDelAño=="Febrero"){
+    alert("este mes no tiene 29 dias")
+}
+else{
+    alert("este mes tiene 30 o mas dias")
+}
 
 }//FIN DE LA FUNCIÓN
